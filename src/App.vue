@@ -22,7 +22,7 @@
               />
             </button>
           </div>
-          <button class="header-btn btn">
+          <button class="header-btn add-btn btn">
             <img src="./assets/add.png" class="header-icon" alt="coin" />
           </button>
           <button class="header-btn btn">
@@ -537,6 +537,10 @@ input {
   padding: 5px 8px;
 }
 .header-btn:hover {
+  /* background: #546dd3; */
+  cursor: pointer;
+}
+.add-btn {
   background: #546dd3;
   cursor: pointer;
 }
