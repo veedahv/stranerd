@@ -51,7 +51,7 @@
               </span>
               <span>
                 <div class="flex">
-                  <img src="./assets/add.png" class="coin-icon" alt="coin" />
+                  <img src="./assets/add.png" class="header-icon" alt="coin" />
                 </div>
               </span>
               <span>
@@ -72,7 +72,7 @@
               <span class="arrow">
                 <img src="./assets/arrow-l.png" class="arrow-img" alt="" />
               </span>
-              <span class="circle"></span>
+              <span class="circle c-active"></span>
               <span class="circle"></span>
               <span class="circle"></span>
               <span class="arrow">
@@ -119,7 +119,7 @@
               <span class="arrow">
                 <img src="./assets/arrow-l.png" class="arrow-img" alt="" />
               </span>
-              <span class="circle"></span>
+              <span class="circle c-active"></span>
               <span class="circle"></span>
               <span class="circle"></span>
               <span class="arrow">
@@ -145,7 +145,7 @@
               <span class="arrow">
                 <img src="./assets/arrow-l.png" class="arrow-img" alt="" />
               </span>
-              <span class="circle"></span>
+              <span class="circle c-active"></span>
               <span class="circle"></span>
               <span class="circle"></span>
               <span class="arrow">
@@ -177,7 +177,7 @@
               <span class="arrow">
                 <img src="./assets/arrow-l.png" class="arrow-img" alt="" />
               </span>
-              <span class="circle"></span>
+              <span class="circle c-active"></span>
               <span class="circle"></span>
               <span class="circle"></span>
               <span class="arrow">
@@ -203,7 +203,7 @@
               <span class="arrow">
                 <img src="./assets/arrow-l.png" class="arrow-img" alt="" />
               </span>
-              <span class="circle"></span>
+              <span class="circle c-active"></span>
               <span class="circle"></span>
               <span class="circle"></span>
               <span class="arrow">
@@ -230,7 +230,7 @@
               <span class="arrow">
                 <img src="./assets/arrow-l.png" class="arrow-img" alt="" />
               </span>
-              <span class="circle"></span>
+              <span class="circle c-active"></span>
               <span class="circle"></span>
               <span class="circle"></span>
               <span class="arrow">
@@ -504,7 +504,10 @@ section {
 .input-box,
 .header-btn {
   background: #f7f7fc;
-  padding: 5px 15px;
+  padding: 8px 15px;
+}
+input {
+  font-size: 15px;
 }
 .paginate {
   gap: 4px;
@@ -520,6 +523,10 @@ section {
   background: #c7d6e3;
   border-radius: 5px;
 }
+.c-active {
+  border: 1px solid #546DD3;
+  background: #546DD3;
+}
 .timeline {
   background: #f7f7fc;
   padding: 5px 8px;
@@ -532,7 +539,7 @@ section {
   width: 16px;
 }
 .header-card {
-  padding: 5px 25px;
+  padding: 8px 25px;
   border-radius: 8px;
 }
 .header-card .flex {
@@ -597,6 +604,7 @@ section {
 }
 .main {
   grid-area: main;
+  padding-bottom: 25px;
 }
 p {
   font-size: 15px;

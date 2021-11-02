@@ -47,6 +47,8 @@ export default {
 .card:hover {
   background: #8B9EB1;
   cursor: pointer;
+}
+.card:hover span {
   color: #fff;
 }
 .card-flex {
