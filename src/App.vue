@@ -509,7 +509,7 @@ section {
 .input-box,
 .header-btn {
   background: #f7f7fc;
-  padding: 8px 15px;
+  padding: 8px 20px;
 }
 input {
   font-size: 15px;
