@@ -5,14 +5,18 @@
     <div class="card-body">
       <div class="flex card-flex">
         <div class="preview-box">
-        <div class="preview-flex flex w-100 h-100">
-          <button class="video btn" v-if="courseType=='video'">
-            <img src="../assets/play.png" alt="play logo" />
-          </button>
-          <button class="note btn" v-else>preview</button>
+          <div class="preview-flex flex w-100 h-100">
+            <button class="video btn" v-if="courseType == 'video'">
+              <img src="../assets/play.png" alt="play logo" />
+            </button>
+            <button class="note btn" v-else>preview</button>
+          </div>
         </div>
+        <div class="w-100 p-tag">
+          <p class="w-100">
+            Work and Energy Introduction to University Physics
+          </p>
         </div>
-        <p class="w-100">Work and Energy Introduction to University Physics</p>
       </div>
       <div class="flex space-between my">
         <div class="flex rating">
@@ -54,13 +58,13 @@
 // import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-    props: ['courseType'],
-//   name: 'App',
-//   components: {
-//     StudyCard,
-//     HelloWorld
-//   }
-}
+  props: ["courseType"],
+  //   name: 'App',
+  //   components: {
+  //     StudyCard,
+  //     HelloWorld
+  //   }
+};
 </script>
 
 <style scoped>
@@ -72,6 +76,13 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 } */
+.card:hover {
+  background: #fff7d0;
+  cursor: pointer;
+}
+.flex {
+  gap: 5px;
+}
 .preview-box {
   background: #c7d6e3;
   width: 84px;
@@ -85,9 +96,15 @@ export default {
   padding: 15px;
 }
 .card-flex {
-    gap: 15px;
-    align-items: center;
-    flex-wrap: nowrap;
-    font-size: 14px;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-size: 14px;
+}
+p {
+  font-size: 14px;
+}
+.p-tag {
+  max-width: 125px;
 }
 </style>

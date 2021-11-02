@@ -89,8 +89,11 @@
   justify-content: center;
   /* margin: 0 -2px; */
 }
-.star {
-  /* padding-left: 2px; */
-  /* padding-right: 2px; */
+.my {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+h2 {
+  font-size: 14px;
 }
 </style>

@@ -598,6 +598,9 @@ section {
 .main {
   grid-area: main;
 }
+p {
+  font-size: 15px;
+}
 .aside {
   grid-area: aside;
   padding-right: 30px;
