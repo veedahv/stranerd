@@ -598,7 +598,7 @@ button.btn:hover {
 .grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: 3fr 12fr 4fr;
+  grid-template-columns: 3fr 13fr 4fr;
   grid-template-areas:
     "sideNav leftHeader rightHeader"
     "sideNav main aside";
