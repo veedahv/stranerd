@@ -23,7 +23,7 @@
               v-else
             />
         </div>
-      <h3>{{ card.title }}</h3>
+      <h3 class="my">{{ card.title }}</h3>
       <p class="my">{{ card.note }}</p>
           <button class="btn w-100">Study solutions</button>
     </div>

@@ -64,12 +64,11 @@
 .side-nav {
     background: #F7F7FC;
     border-radius: 0 10px 0 10px;
-    padding: 30px 0;
+    padding: 40px 0;
     padding-left: 10px;
 }
 .logo-box {
-    padding: 30px;
-    padding-top: 0;
+    padding: 0 30px 30px 20px;
 }
 .logo {
     /* width: 150px; */

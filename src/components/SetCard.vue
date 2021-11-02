@@ -16,7 +16,7 @@
       </div>
       <!-- <div class="card-main"> -->
       <div class="flex space-between my">
-        <div class="flex">
+        <div class="flex tag-flex">
           <span class="tag" v-for="(tag, index) in card.tags" :key="index">
             <img
               src="../assets/card.png"
@@ -70,7 +70,7 @@
           <img src="../assets/star.png" class="star" alt="star logo" />
         </div>
         <div class="flex">
-          <span>Timmy</span>
+          <span class="instructor">Timmy</span>
           <img src="../assets/person.png" class="person-icon" alt="" />
         </div>
       </div>
@@ -110,7 +110,10 @@ export default {
   height: 64px;
 }
 .flex {
-  gap: 5px;
+  gap: 4px;
+}
+.tag-flex {
+  gap: 15px;
 }
 .preview-flex {
   align-items: center;

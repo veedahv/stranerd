@@ -4,7 +4,7 @@
   <div class="card">
     <div class="card-body">
       <div class="">
-        <p class="w-100 my">{{ card.desc }}</p>
+        <p class="w-100 my">{{ card.desc }} <strong>{{ card.em }} </strong></p>
         <div class="card-progress my">
             <div class="w-100 progress-bar"></div>
             <div class="progress" :style="{width: card.progress}"></div>

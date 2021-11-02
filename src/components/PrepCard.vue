@@ -11,10 +11,13 @@
       </div>
       <div class="unpaid" v-else>
           <p class="my">
+            <strong class="my">
               Unlock for a month
         <!-- <div class="flex"> -->
           <span>50</span>
           <img src="../assets/coin.png" class="coin-icon" alt="coin" />
+
+            </strong>
         <!-- </div> -->
         </p>
           <button class="bg-dark-gray btn w-100">Unlock</button>

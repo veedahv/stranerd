@@ -397,12 +397,12 @@ export default {
         {
           desc: "Complete resources for 100l CEG - UNILAG",
           paid: true,
-          tags: ["note", "video", "card"],
+          tags: ["card", "note", "video"],
         },
         {
           desc: "WAEC Physics - All you need for A1",
           paid: false,
-          tags: ["note", "video", "card"],
+          tags: ["card", "note", "video"],
         },
         {
           desc: "Organized MEG notes - 100l to 500l - UNILAG",
@@ -412,19 +412,23 @@ export default {
       ],
       challenges: [
         {
-          desc: "Reach the rank of Comrade",
+          desc: "Reach the rank of ",
+          em: "Comrade",
           progress: "68%",
         },
         {
           desc: "Answer 30 questions",
+          em: "",
           progress: "58%",
         },
         {
           desc: "Get 30 best answers",
+          em: "",
           progress: "48%",
         },
         {
           desc: "5 days login streak",
+          em: "",
           progress: "38%",
         },
       ],
@@ -468,9 +472,10 @@ export default {
   margin: 0;
   box-sizing: border-box;
 }
-/* body {
-  width: 100vw;
-} */
+body {
+  max-width: 1700px;
+  margin: 0 auto;
+}
 a {
   text-decoration: none;
   display: inline-block;
@@ -558,9 +563,12 @@ input {
   margin-top: 8px;
   margin-bottom: 8px;
 }
-.view-all {
+.view-all span {
   color: #546dd3;
   font-weight: 500;
+  font-size: 14px;
+}
+.instructor {
   font-size: 14px;
 }
 .view-all.flex {
@@ -568,15 +576,20 @@ input {
   gap: 4px;
 }
 .person-icon,
-.coin-icon,
 .card-icon {
   width: 20px;
+}
+.coin-icon {
+  width: 18px;
+}
+button.btn:hover {
+  cursor: pointer;
 }
 .coin-btn span {
   color: #fff;
 }
 .star {
-  width: 18px;
+  width: 16px;
 }
 .flex {
   display: flex;
@@ -584,8 +597,8 @@ input {
 }
 .grid {
   display: grid;
-  gap: 40px;
-  grid-template-columns: 3fr 13fr 4fr;
+  gap: 20px;
+  grid-template-columns: 3fr 12fr 4fr;
   grid-template-areas:
     "sideNav leftHeader rightHeader"
     "sideNav main aside";
@@ -595,12 +608,12 @@ input {
 }
 .left-header {
   grid-area: leftHeader;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 .right-header {
-  padding-right: 30px;
+  padding-right: 20px;
   grid-area: rightHeader;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 .main {
   grid-area: main;
@@ -611,17 +624,14 @@ p {
 }
 .aside {
   grid-area: aside;
-  padding-right: 30px;
-}
-/* .body {
-  padding: 20px 30px;
-} */
-.app {
-  /* align-items: stretch; */
+  padding-right: 20px;
 }
 .space-between {
   justify-content: space-between;
 }
+/* .items-start {
+  align-items: flex-start;
+} */
 .flex-m {
   margin: 0 -10px;
   align-items: stretch;

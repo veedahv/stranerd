@@ -43,7 +43,7 @@
           <img src="../assets/star.png" class="star" alt="star logo" />
         </div>
         <div class="flex">
-          <span>Timmy</span>
+          <span class="instructor">Timmy</span>
           <img src="../assets/person.png" class="person-icon" alt="" />
         </div>
       </div>
@@ -100,11 +100,12 @@ export default {
   align-items: center;
   flex-wrap: nowrap;
   font-size: 14px;
+  margin-bottom: 15px;
 }
 p {
   font-size: 14px;
 }
 .p-tag {
-  max-width: 125px;
+  max-width: 120px;
 }
 </style>

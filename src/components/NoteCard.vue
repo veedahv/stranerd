@@ -13,7 +13,7 @@
           </div>
         </div>
         <div class="card-main">
-          <div class="flex space-between my">
+          <div class="flex space-between items-start my">
             <p class="w-100">{{ card.desc }}</p>
             <div class="unpaid" v-if="!card.paid">
               <button class="bg-dark-gray coin-btn flex btn w-100">
@@ -47,7 +47,7 @@
               <img src="../assets/star.png" class="star" alt="star logo" />
             </div>
             <div class="flex">
-              <span>Timmy</span>
+              <span class="instructor">Timmy</span>
               <img src="../assets/person.png" class="person-icon" alt="" />
             </div>
           </div>

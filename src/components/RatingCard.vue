@@ -27,14 +27,6 @@ export default {
 </script>
 
 <style scoped>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
 .file-box {
   background: #c7d6e3;
   width: 64px;
@@ -47,12 +39,12 @@ export default {
 .card:hover {
   background: #8B9EB1;
   cursor: pointer;
+  font-weight: 600;
 }
 .card:hover span {
   color: #fff;
 }
 .card-flex {
-    /* gap: 15px; */
     align-items: center;
     flex-wrap: nowrap;
     font-size: 14px;

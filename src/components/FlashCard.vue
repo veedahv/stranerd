@@ -1,7 +1,7 @@
 <template>
   <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <div class="card w-100">
+  <div class="card h-100 w-100">
     <div class="card-body">
       <h3>Physics - Waves and Sounds (100l 1st semester exams)</h3>
       <div class="flex space-between my">
@@ -39,7 +39,7 @@
           <span>50 cards</span>
         </div>
         <div class="flex">
-          <span>Timmy</span>
+          <span class="instructor">Timmy</span>
           <img src="../assets/person.png" class="person-icon" alt="" />
         </div>
       </div>
@@ -90,10 +90,10 @@
   /* margin: 0 -2px; */
 }
 .my {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 17px;
+  margin-bottom: 17px;
 }
-h2 {
-  font-size: 14px;
+h3 {
+  font-size: 15px;
 }
 </style>
