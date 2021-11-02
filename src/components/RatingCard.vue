@@ -4,9 +4,9 @@
   <div class="card">
     <div class="card-body">
       <div class="card-flex flex space-between">
-        <span>{{ card.sn }}</span>
-        <span>{{ card.title }}</span>
-        <span>{{ card.rank }}</span>
+        <span class="sn">{{ card.sn }}</span>
+        <span class="title">{{ card.title }}</span>
+        <span class="rank">{{ card.rank }}</span>
       </div>
     </div>
   </div>
@@ -47,6 +47,7 @@ export default {
 .card:hover {
   background: #8B9EB1;
   cursor: pointer;
+  color: #fff;
 }
 .card-flex {
     /* gap: 15px; */
@@ -72,5 +73,14 @@ export default {
     transform: translateY(-50%);
     z-index: 5;
     background: #546DD3;
+}
+.sn {
+  font-weight: 600;
+  font-size: 14px;
+}
+.rank {
+  color: #546dd3;
+  font-weight: 600;
+  font-size: 14px;
 }
 </style>

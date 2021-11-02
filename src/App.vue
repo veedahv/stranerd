@@ -9,9 +9,17 @@
       <div class="left-header">
         <div class="flex header-flex">
           <div class="input-box btn w-100 flex">
-            <input type="text" placeholder="Search for anything" class="input w-100 btn" />
+            <input
+              type="text"
+              placeholder="Search for anything"
+              class="input w-100 btn"
+            />
             <button class="search btn">
-              <img src="./assets/search.png" class="search-icon header-icon" alt="coin" />
+              <img
+                src="./assets/search.png"
+                class="search-icon header-icon"
+                alt="coin"
+              />
             </button>
           </div>
           <button class="header-btn btn">
@@ -60,12 +68,22 @@
         <section>
           <div class="flex space-between">
             <h2 class="section-title">My Study</h2>
+            <div class="paginate flex">
+              <span class="arrow">
+                <img src="./assets/arrow-l.png" class="arrow-img" alt="" />
+              </span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="arrow">
+                <img src="./assets/arrow-r.png" class="arrow-img" alt="" />
+              </span>
+            </div>
             <a href="" class="view-all flex">
               <span>view all</span>
-              
+
               <img src="./assets/right.png" class="view-icon" alt="right" />
-              </a>
-                  
+            </a>
           </div>
           <div class="flex flex-m">
             <div class="flex-p">
@@ -97,11 +115,22 @@
         <section>
           <div class="flex space-between section-heading">
             <h2 class="section-title">Test Prep</h2>
+            <div class="paginate flex">
+              <span class="arrow">
+                <img src="./assets/arrow-l.png" class="arrow-img" alt="" />
+              </span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="arrow">
+                <img src="./assets/arrow-r.png" class="arrow-img" alt="" />
+              </span>
+            </div>
             <a href="" class="view-all flex">
               <span>view all</span>
-              
+
               <img src="./assets/right.png" class="view-icon" alt="right" />
-              </a>
+            </a>
           </div>
           <div class="flex flex-m">
             <div class="flex-p" v-for="prep in preps" :key="prep">
@@ -112,11 +141,22 @@
         <section>
           <div class="flex space-between section-heading">
             <h2 class="section-title">Flashcards</h2>
+            <div class="paginate flex">
+              <span class="arrow">
+                <img src="./assets/arrow-l.png" class="arrow-img" alt="" />
+              </span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="arrow">
+                <img src="./assets/arrow-r.png" class="arrow-img" alt="" />
+              </span>
+            </div>
             <a href="" class="view-all flex">
               <span>view all</span>
-              
+
               <img src="./assets/right.png" class="view-icon" alt="right" />
-              </a>
+            </a>
           </div>
           <div class="flex flex-m">
             <div class="flex-p">
@@ -133,11 +173,22 @@
         <section>
           <div class="flex space-between section-heading">
             <h2 class="section-title">Notes</h2>
+            <div class="paginate flex">
+              <span class="arrow">
+                <img src="./assets/arrow-l.png" class="arrow-img" alt="" />
+              </span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="arrow">
+                <img src="./assets/arrow-r.png" class="arrow-img" alt="" />
+              </span>
+            </div>
             <a href="" class="view-all flex">
               <span>view all</span>
-              
+
               <img src="./assets/right.png" class="view-icon" alt="right" />
-              </a>
+            </a>
           </div>
           <div class="flex flex-m">
             <div class="flex-p" v-for="(card, index) in notes" :key="index">
@@ -148,11 +199,22 @@
         <section>
           <div class="flex space-between section-heading">
             <h2 class="section-title">Videos</h2>
+            <div class="paginate flex">
+              <span class="arrow">
+                <img src="./assets/arrow-l.png" class="arrow-img" alt="" />
+              </span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="arrow">
+                <img src="./assets/arrow-r.png" class="arrow-img" alt="" />
+              </span>
+            </div>
             <a href="" class="view-all flex">
               <span>view all</span>
-              
+
               <img src="./assets/right.png" class="view-icon" alt="right" />
-              </a>
+            </a>
           </div>
           <div class="flex flex-m">
             <div class="flex-p" v-for="(card, index) in videos" :key="index">
@@ -164,11 +226,22 @@
         <section>
           <div class="flex space-between">
             <h2 class="section-title">Study Sets</h2>
+            <div class="paginate flex">
+              <span class="arrow">
+                <img src="./assets/arrow-l.png" class="arrow-img" alt="" />
+              </span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="circle"></span>
+              <span class="arrow">
+                <img src="./assets/arrow-r.png" class="arrow-img" alt="" />
+              </span>
+            </div>
             <a href="" class="view-all flex">
               <span>view all</span>
-              
+
               <img src="./assets/right.png" class="view-icon" alt="right" />
-              </a>
+            </a>
           </div>
           <div class="flex flex-m">
             <div class="flex-p" v-for="card in sets" :key="card">
@@ -189,9 +262,9 @@
             <h2 class="section-title">Challenges</h2>
             <a href="" class="view-all flex">
               <span>view all</span>
-              
+
               <img src="./assets/right.png" class="view-icon" alt="right" />
-              </a>
+            </a>
           </div>
           <div class="">
             <div class="" v-for="card in challenges" :key="card">
@@ -221,7 +294,7 @@
 </template>
 
 <script>
-import ToolCard from './components/ToolCard'
+import ToolCard from "./components/ToolCard";
 import RatingCard from "./components/RatingCard";
 import ChallengeCard from "./components/ChallengeCard";
 import SetCard from "./components/SetCard";
@@ -253,21 +326,21 @@ export default {
       tools: [
         {
           type: "card",
-          title: 'Study with Flashcards',
+          title: "Study with Flashcards",
           note:
             "Scientifically proven to improve memory and make studying easier.",
           btn: "Create a Flashcard",
         },
         {
           type: "file",
-          title: 'Organize your Study',
+          title: "Organize your Study",
           note:
             "Put flashcards, notes and videos with the same aim together in a folder.",
           btn: "Create a Study Set",
         },
         {
           type: "location",
-          title: 'Find more resources',
+          title: "Find more resources",
           note:
             "Browse through a library of flashcards, notes, videos and sets to study with.",
           btn: "Explore",
@@ -390,6 +463,7 @@ export default {
 <style>
 * {
   font-family: "Raleway", sans-serif;
+  color: #4d5c6f;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -409,7 +483,8 @@ section {
   margin-bottom: 30px;
 }
 .section-title {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
   font-size: 16px;
 }
 .btn {
@@ -431,12 +506,26 @@ section {
   background: #f7f7fc;
   padding: 5px 15px;
 }
+.paginate {
+  gap: 4px;
+  align-items: center;
+}
+.arrow-img {
+  width: 8px;
+}
+.circle {
+  height: 5px;
+  width: 5px;
+  border: 1px solid #c7d6e3;
+  background: #c7d6e3;
+  border-radius: 5px;
+}
 .timeline {
   background: #f7f7fc;
   padding: 5px 8px;
 }
 .header-btn:hover {
-  background: #546DD3;
+  background: #546dd3;
   cursor: pointer;
 }
 .header-icon {
@@ -475,6 +564,9 @@ section {
 .coin-icon,
 .card-icon {
   width: 20px;
+}
+.coin-btn span {
+  color: #fff;
 }
 .star {
   width: 18px;
@@ -542,8 +634,8 @@ section {
   font-weight: 600;
 }
 .rank-btn {
-  background: #546DD3;
-color: #fff;
-padding: 10px;
+  background: #546dd3;
+  color: #fff;
+  padding: 10px;
 }
 </style>

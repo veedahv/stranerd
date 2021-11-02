@@ -65,4 +65,8 @@ export default {
     background: transparent;
     padding: 25px 15px;
 }
+p {
+    color: #8B9EB1;
+    font-size: 15px;
+}
 </style>
