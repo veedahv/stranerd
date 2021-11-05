@@ -1,6 +1,4 @@
 <template>
-  <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <div class="card">
     <div class="card-body">
       <div class="">
@@ -15,28 +13,12 @@
 </template>
 
 <script>
-// import StudyCard from './components/StudyCard'
-// import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-    props: ['card'],
-//   name: 'App',
-//   components: {
-//     StudyCard,
-//     HelloWorld
-//   }
+    props: ['card']
 }
 </script>
 
 <style scoped>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
 .file-box {
   background: #c7d6e3;
   width: 64px;

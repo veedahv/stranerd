@@ -13,32 +13,20 @@
           <p class="my">
             <strong class="my">
               Unlock for a month
-        <!-- <div class="flex"> -->
           <span>50</span>
           <img src="../assets/coin.png" class="coin-icon" alt="coin" />
 
             </strong>
-        <!-- </div> -->
         </p>
           <button class="bg-dark-gray btn w-100">Unlock</button>
       </div>
     </div>
-    <!-- <h2 class="section-title">My Study</h2> -->
-    <!-- <aside class="aside"></aside> -->
   </div>
 </template>
 
 <script>
-// import StudyCard from './components/StudyCard'
-// import HelloWorld from './components/HelloWorld.vue'
-
 export default {
     props: ['prep'],
-//   name: 'App',
-//   components: {
-//     StudyCard,
-//     HelloWorld
-//   }
 }
 </script>
 
@@ -49,9 +37,6 @@ export default {
 .btn {
     padding: 10px 25px;
 }
-/* .coin-btn {
-    padding: 2px 4px;
-} */
 .card {
     text-align: center;
     padding: 15px;

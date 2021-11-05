@@ -1,6 +1,4 @@
 <template>
-  <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <div class="card h-100">
     <div class="card-body">
         <div class="">
@@ -27,22 +25,12 @@
       <p class="my">{{ card.note }}</p>
           <button class="btn w-100">Study solutions</button>
     </div>
-    <!-- <h2 class="section-title">My Study</h2> -->
-    <!-- <aside class="aside"></aside> -->
   </div>
 </template>
 
 <script>
-// import StudyCard from './components/StudyCard'
-// import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-    props: ['card'],
-//   name: 'App',
-//   components: {
-//     StudyCard,
-//     HelloWorld
-//   }
+    props: ['card']
 }
 </script>
 
@@ -56,9 +44,6 @@ export default {
 .icon {
     width: 48px;
 }
-/* .coin-btn {
-    padding: 2px 4px;
-} */
 .card {
   border: 1px solid #4D5C6F;
     text-align: center;

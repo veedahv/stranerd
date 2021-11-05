@@ -1,6 +1,4 @@
 <template>
-  <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <div class="card">
     <div class="card-body">
       <div class="card-flex flex space-between">
@@ -11,18 +9,10 @@
     </div>
   </div>
 </template>
-
 <script>
-// import StudyCard from './components/StudyCard'
-// import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-    props: ['card'],
-//   name: 'App',
-//   components: {
-//     StudyCard,
-//     HelloWorld
-//   }
+    props: ['card']
 }
 </script>
 

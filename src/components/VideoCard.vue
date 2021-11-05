@@ -1,6 +1,4 @@
 <template>
-  <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <div class="card h-100">
     <div class="card-body">
       <div class="flex card-flex">
@@ -9,7 +7,6 @@
             <button class="video btn">
             <img src="../assets/Vector.png" alt="play logo" />
           </button>
-            <!-- <button class="note btn">preview</button> -->
           </div>
         </div>
         <div class="card-main">
@@ -54,37 +51,18 @@
         </div>
       </div>
     </div>
-    <!-- <h2 class="section-title">My Study</h2> -->
-    <!-- <aside class="aside"></aside> -->
   </div>
 </template>
 
 <script>
-// import StudyCard from './components/StudyCard'
-// import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  props: ["card"],
-  //   name: 'App',
-  //   components: {
-  //     StudyCard,
-  //     HelloWorld
-  //   }
+  props: ["card"]
 };
 </script>
 
 <style scoped>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
 .preview-box {
   background: #c7d6e3;
-  /* width: 96px; */
   height: 210px;
 }
 .card:hover {
@@ -107,7 +85,4 @@ export default {
   padding: 15px;
   font-size: 15px;
 }
-/* .btn {
-    padding: 10px 25px;
-} */
 </style>

@@ -1,6 +1,4 @@
 <template>
-  <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <div class="card h-100">
     <div class="card-body">
       <div class="flex card-flex">
@@ -48,34 +46,16 @@
         </div>
       </div>
     </div>
-    <!-- <h2 class="section-title">My Study</h2> -->
-    <!-- <aside class="aside"></aside> -->
   </div>
 </template>
 
 <script>
-// import StudyCard from './components/StudyCard'
-// import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  props: ["courseType"],
-  //   name: 'App',
-  //   components: {
-  //     StudyCard,
-  //     HelloWorld
-  //   }
+  props: ["courseType"]
 };
 </script>
 
 <style scoped>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
 .card:hover {
   background: #fff7d0;
   cursor: pointer;

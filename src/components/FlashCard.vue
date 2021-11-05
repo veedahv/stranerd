@@ -1,6 +1,4 @@
 <template>
-  <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <div class="card h-100 w-100">
     <div class="card-body">
       <h3>Physics - Waves and Sounds (100l 1st semester exams)</h3>
@@ -44,37 +42,13 @@
         </div>
       </div>
     </div>
-    <!-- <h2 class="section-title">My Study</h2> -->
-    <!-- <aside class="aside"></aside> -->
   </div>
 </template>
 
-<script>
-// import StudyCard from './components/StudyCard'
-// import HelloWorld from './components/HelloWorld.vue'
-
-// export default {
-//   name: 'App',
-//   components: {
-//     StudyCard,
-//     HelloWorld
-//   }
-// }
-</script>
-
 <style scoped>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
 .card {
   background: #f7f7fc;
   padding: 15px;
-  /* border-radius: 10px; */
 }
 .card:hover {
   background: #EDF6FF;
@@ -84,10 +58,8 @@
     gap: 5px;
 }
 .rating {
-  /* background: #c7d6e3; */
   align-items: center;
   justify-content: center;
-  /* margin: 0 -2px; */
 }
 .my {
   margin-top: 17px;
