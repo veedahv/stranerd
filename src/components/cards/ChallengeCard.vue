@@ -1,40 +1,37 @@
 <template>
   <div class="card">
     <div class="card-body">
-      <div class="card-flex flex space-between">
-        <span class="sn">{{ card.sn }}</span>
-        <span class="title">{{ card.title }}</span>
-        <span class="rank">{{ card.rank }}</span>
+      <div class="">
+        <p class="w-100 my">{{ card.desc }} <strong>{{ card.em }} </strong></p>
+        <div class="card-progress my">
+            <div class="w-100 progress-bar"></div>
+            <div class="progress" :style="{width: card.progress}"></div>
+        </div>
       </div>
     </div>
   </div>
 </template>
-<script>
 
+<script>
 export default {
     props: ['card']
 }
 </script>
 
 <style scoped>
-.file-box {
-  background: #c7d6e3;
-  width: 64px;
-  height: 64px;
+.card:hover {
+  background: #EDF6FF;
+  cursor: pointer;
+}
+.flex {
+    gap: 5px;
 }
 .card {
-  padding: 15px;
+  padding: 10px 15px;
   margin-bottom: 20px;
 }
-.card:hover {
-  background: #8B9EB1;
-  cursor: pointer;
-  font-weight: 600;
-}
-.card:hover span {
-  color: #fff;
-}
 .card-flex {
+    gap: 15px;
     align-items: center;
     flex-wrap: nowrap;
     font-size: 14px;
@@ -46,6 +43,7 @@ export default {
 .progress,
 .progress-bar {
     border-radius: 5px;
+    height: 8px;
 }
 .progress-bar {
     background: #C7D6E3;
@@ -57,14 +55,5 @@ export default {
     transform: translateY(-50%);
     z-index: 5;
     background: #546DD3;
-}
-.sn {
-  font-weight: 600;
-  font-size: 14px;
-}
-.rank {
-  color: #546dd3;
-  font-weight: 600;
-  font-size: 14px;
 }
 </style>

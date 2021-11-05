@@ -6,18 +6,18 @@
       </h2>
       <div class="paginate flex">
         <span class="arrow">
-          <img src="../assets/arrow-l.png" class="arrow-img" alt="" />
+          <img src="../../assets/arrow-l.png" class="arrow-img" alt="" />
         </span>
         <span class="circle c-active"></span>
         <span class="circle"></span>
         <span class="circle"></span>
         <span class="arrow">
-          <img src="../assets/arrow-r.png" class="arrow-img" alt="" />
+          <img src="../../assets/arrow-r.png" class="arrow-img" alt="" />
         </span>
       </div>
       <a href="" class="view-all flex">
         <span>view all</span>
-        <img src="../assets/right.png" class="view-icon" alt="right" />
+        <img src="../../assets/right.png" class="view-icon" alt="right" />
       </a>
     </div>
   </div>

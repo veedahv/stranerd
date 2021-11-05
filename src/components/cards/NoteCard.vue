@@ -13,37 +13,37 @@
             <div class="unpaid" v-if="!card.paid">
               <button class="bg-dark-gray coin-btn flex btn w-100">
                 <span>50</span>
-                <img src="../assets/coin.png" class="coin-icon" alt="coin" />
+                <img src="../../assets/coin.png" class="coin-icon" alt="coin" />
               </button>
             </div>
           </div>
           <div class="flex space-between w-100 my">
             <div class="flex rating">
               <img
-                src="../assets/star-fill.png"
+                src="../../assets/star-fill.png"
                 class="star"
                 alt="star filled logo"
               />
               <img
-                src="../assets/star-fill.png"
+                src="../../assets/star-fill.png"
                 class="star"
                 alt="star filled logo"
               />
               <img
-                src="../assets/star-fill.png"
+                src="../../assets/star-fill.png"
                 class="star"
                 alt="star filled logo"
               />
               <img
-                src="../assets/star-fill.png"
+                src="../../assets/star-fill.png"
                 class="star"
                 alt="star filled logo"
               />
-              <img src="../assets/star.png" class="star" alt="star logo" />
+              <img src="../../assets/star.png" class="star" alt="star logo" />
             </div>
             <div class="flex">
               <span class="instructor">Timmy</span>
-              <img src="../assets/person.png" class="person-icon" alt="" />
+              <img src="../../assets/person.png" class="person-icon" alt="" />
             </div>
           </div>
         </div>

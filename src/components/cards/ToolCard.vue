@@ -3,19 +3,19 @@
     <div class="card-body">
         <div class="">
             <img
-              src="../assets/card.png"
+              src="../../assets/card.png"
               class="icon"
               alt=""
               v-if="card.type === 'card'"
             />
             <img
-              src="../assets/file.png"
+              src="../../assets/file.png"
               class="icon"
               alt=""
               v-else-if="card.type === 'file'"
             />
             <img
-              src="../assets/map.png"
+              src="../../assets/map.png"
               class="icon"
               alt=""
               v-else

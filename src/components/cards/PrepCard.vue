@@ -1,6 +1,4 @@
 <template>
-  <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <div class="card h-100">
     <div class="card-body">
       <h3>{{ prep.title }}</h3>
@@ -14,7 +12,7 @@
             <strong class="my">
               Unlock for a month
           <span>50</span>
-          <img src="../assets/coin.png" class="coin-icon" alt="coin" />
+          <img src="../../assets/coin.png" class="coin-icon" alt="coin" />
 
             </strong>
         </p>

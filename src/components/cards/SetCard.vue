@@ -4,7 +4,7 @@
       <div class="flex card-flex">
         <div class="file-box">
           <div class="preview-flex flex w-100 h-100">
-            <img src="../assets/file.png" alt="file logo" />
+            <img src="../../assets/file.png" alt="file logo" />
           </div>
         </div>
         <p class="w-100">{{ card.desc }}</p>
@@ -13,19 +13,19 @@
         <div class="flex tag-flex">
           <span class="tag" v-for="(tag, index) in card.tags" :key="index">
             <img
-              src="../assets/card.png"
+              src="../../assets/card.png"
               class="card-icon"
               alt=""
               v-if="tag === 'card'"
             />
             <img
-              src="../assets/reader.png"
+              src="../../assets/reader.png"
               class="card-icon"
               alt=""
               v-else-if="tag === 'note'"
             />
             <img
-              src="../assets/logo-youtube.png"
+              src="../../assets/logo-youtube.png"
               class="card-icon"
               alt=""
               v-else
@@ -35,37 +35,37 @@
         <div class="unpaid" v-if="!card.paid">
           <button class="bg-dark-gray coin-btn flex btn w-100">
             <span>50</span>
-            <img src="../assets/coin.png" class="coin-icon" alt="coin" />
+            <img src="../../assets/coin.png" class="coin-icon" alt="coin" />
           </button>
         </div>
       </div>
       <div class="flex space-between w-100 my">
         <div class="flex rating">
           <img
-            src="../assets/star-fill.png"
+            src="../../assets/star-fill.png"
             class="star"
             alt="star filled logo"
           />
           <img
-            src="../assets/star-fill.png"
+            src="../../assets/star-fill.png"
             class="star"
             alt="star filled logo"
           />
           <img
-            src="../assets/star-fill.png"
+            src="../../assets/star-fill.png"
             class="star"
             alt="star filled logo"
           />
           <img
-            src="../assets/star-fill.png"
+            src="../../assets/star-fill.png"
             class="star"
             alt="star filled logo"
           />
-          <img src="../assets/star.png" class="star" alt="star logo" />
+          <img src="../../assets/star.png" class="star" alt="star logo" />
         </div>
         <div class="flex">
           <span class="instructor">Timmy</span>
-          <img src="../assets/person.png" class="person-icon" alt="" />
+          <img src="../../assets/person.png" class="person-icon" alt="" />
         </div>
       </div>
     </div>

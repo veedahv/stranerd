@@ -5,40 +5,40 @@
       <div class="flex space-between my">
         <div class="flex rating">
           <img
-            src="../assets/star-fill.png"
+            src="../../assets/star-fill.png"
             class="star"
             alt="star filled logo"
           />
           <img
-            src="../assets/star-fill.png"
+            src="../../assets/star-fill.png"
             class="star"
             alt="star filled logo"
           />
           <img
-            src="../assets/star-fill.png"
+            src="../../assets/star-fill.png"
             class="star"
             alt="star filled logo"
           />
           <img
-            src="../assets/star-fill.png"
+            src="../../assets/star-fill.png"
             class="star"
             alt="star filled logo"
           />
-          <img src="../assets/star.png" class="star" alt="star logo" />
+          <img src="../../assets/star.png" class="star" alt="star logo" />
         </div>
         <button class="flex btn bg-dark-gray coin-btn">
           <span>50</span>
-          <img src="../assets/coin.png" class="coin-icon" alt="coin logo" />
+          <img src="../../assets/coin.png" class="coin-icon" alt="coin logo" />
         </button>
       </div>
       <div class="flex space-between">
         <div class="flex">
-          <img src="../assets/card.png" class="card-icon" alt="" />
+          <img src="../../assets/card.png" class="card-icon" alt="" />
           <span>50 cards</span>
         </div>
         <div class="flex">
           <span class="instructor">Timmy</span>
-          <img src="../assets/person.png" class="person-icon" alt="" />
+          <img src="../../assets/person.png" class="person-icon" alt="" />
         </div>
       </div>
     </div>

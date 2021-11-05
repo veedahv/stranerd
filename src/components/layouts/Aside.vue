@@ -34,8 +34,8 @@
 </template>
 
 <script>
-import RatingCard from "../../components/RatingCard";
-import ChallengeCard from "../../components/ChallengeCard";
+import RatingCard from "../../components/cards/RatingCard";
+import ChallengeCard from "../../components/cards/ChallengeCard";
 
 export default {
   name: "App",

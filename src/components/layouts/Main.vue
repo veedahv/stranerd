@@ -87,14 +87,14 @@
 </template>
 
 <script>
-import Paginate from "../../components/Paginate";
-import ToolCard from "../../components/ToolCard";
-import SetCard from "../../components/SetCard";
-import VideoCard from "../../components/VideoCard";
-import NoteCard from "../../components/NoteCard";
-import PrepCard from "../../components/PrepCard";
-import FlashCard from "../../components/FlashCard";
-import StudyCard from "../../components/StudyCard";
+import Paginate from "../../components/pagination/Paginate";
+import ToolCard from "../../components/cards/ToolCard";
+import SetCard from "../../components/cards/SetCard";
+import VideoCard from "../../components/cards/VideoCard";
+import NoteCard from "../../components/cards/NoteCard";
+import PrepCard from "../../components/cards/PrepCard";
+import FlashCard from "../../components/cards/FlashCard";
+import StudyCard from "../../components/cards/StudyCard";
 
 export default {
   name: "App",
